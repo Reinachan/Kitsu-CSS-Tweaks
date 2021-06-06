@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           Remove Kitsu Feed and Notifications
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Reina
+@namespace      https://github.com/Reinachan
+@homepageURL    https://github.com/Reinachan/remove-kitsu-feed
+@supportURL     https://github.com/Reinachan/remove-kitsu-feed/issues
+@updateURL      https://github.com/Reinachan/remove-kitsu-feed/raw/main/remove-kitsu-feed.user.css
+@preprocessor   stylus
+@var checkbox   notif "Remove Notifications" 1
+@var checkbox   popup "Remove Alert Popups (notifications)" 1
+@var checkbox   feed "Remove Social Feed" 1
+@var checkbox   mediaFeed "Remove Social Feed on Media Pages" 1
+==/UserStyle== */
+
+@-moz-document domain("kitsu.io") {
+  if popup {
+    .alert {
+      display: none!important;
+    }
+  }
+  
+  if feed {
+    .feed-stream {
+      display: none;
+    }
+  }
+  
+  if mediaFeed {
+    .media--feed {
+      display: none;
+    }
+  }
+  
+  if notif {
+    .notifications {
+      display: none !important;
+    }
+  }
+}
