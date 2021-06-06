@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Remove Kitsu Feed and Notifications
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A new userstyle
 @author         Reina
 @namespace      https://github.com/Reinachan
@@ -23,13 +23,13 @@
   }
   
   if feed {
-    .feed-stream {
+    .feed-stream > div {
       display: none;
     }
   }
   
   if mediaFeed {
-    .media--feed {
+    .media--feed > div {
       display: none;
     }
   }
