@@ -9,3 +9,6 @@ Removes Kitsu's feed and notifications for users that want to only use it for li
 
 ## [Remove Horizontal Scroll](https://github.com/Reinachan/Kitsu-CSS-Tweaks/raw/main/remove-horizontal-scroll-kitsu.user.css)
 Hides anything that overflows the page on the horizontal axis preventing horizontal scroll on certain window sizes. This might potentially mean that some actual content might slightly disappear, however. It probably won't but it could.
+
+## [Thin Scrollbars](https://github.com/Reinachan/Kitsu-CSS-Tweaks/raw/main/Thin-Scrollbars.user.css)
+Makes scrollbars in elements (like the notifications) thinner to make it look neater. The main scrollbar will still be large to make it easier to scroll a long feed.
