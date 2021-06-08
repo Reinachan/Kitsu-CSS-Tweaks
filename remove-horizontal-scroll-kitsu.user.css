@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Remove Horizontal Scroll on Kitsu
+@version        1.0.0
+@description    Removes the horizontal scroll that appears on certain screen sizes
+@author         Reina
+@namespace      https://github.com/Reinachan
+@homepageURL    https://github.com/Reinachan/Kitsu-CSS-Tweaks
+@supportURL     https://github.com/Reinachan/Kitsu-CSS-Tweaks/issues
+@updateURL      https://github.com/Reinachan/Kitsu-CSS-Tweaks/raw/main/remove-horizontal-scroll-kitsu.user.css
+==/UserStyle== */
+
+@-moz-document domain("kitsu.io") {
+  body {
+    overflow-x: hidden;
+  }
+}
