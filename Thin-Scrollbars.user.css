@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Thin Scrollbars on Kitsu
+@version        1.0.0
+@description    Makes scrollbars in elements smaller to make it look neater. The main scrollbar will still be large to make it easier to scroll a long feed.
+@author         Reina
+@namespace      https://github.com/Reinachan
+@homepageURL    https://github.com/Reinachan/Kitsu-CSS-Tweaks
+@supportURL     https://github.com/Reinachan/Kitsu-CSS-Tweaks/issues
+@updateURL      https://github.com/Reinachan/Kitsu-CSS-Tweaks/raw/main/Thin-Scrollbars.user.css
+==/UserStyle== */
+
+@-moz-document domain("kitsu.io") {
+  * {
+    scrollbar-width: thin;
+  }
+  html {
+    scrollbar-width: auto;
+  }
+}
